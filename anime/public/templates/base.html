@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>animes</title>
+</head>
+<body>
+
+<ul>
+    {{range .animes}}
+    <li>
+        <a href="/animes/base/{{.ID}}">{{.Title}}</a>
+    </li>
+    {{end}}
+</ul>
+
+
+</body>
+</html>
